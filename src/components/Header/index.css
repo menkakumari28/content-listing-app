@@ -1,0 +1,14 @@
+.ant-btn-variant-link {
+    color: #ffff !important;
+}
+
+.ant-btn-variant-link:hover {
+    color: #ffff !important;
+}
+.head{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.head span{
+    margin-right: 0.5rem;
+}
