@@ -17,7 +17,7 @@ const CardComponent = ({ title, posterImage }) => {
         <Suspense fallback={<Spin size="default" />}>
           <img
             alt={posterImage}
-            src={`${import.meta.env.VITE_BASE_API_URL}images/${
+            src={`${import.meta.env.VITE_BASE_API_URL}/images/${
               !posterImage?.includes("posterthatismissing")
                 ? posterImage
                 : "placeholder_for_missing_posters.png"

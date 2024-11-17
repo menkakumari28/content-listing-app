@@ -16,7 +16,7 @@ function App() {
   const { movieCard, setMovieCard } = useMovieCard();
   const getContentList = () => {
     fetch(
-      `${import.meta.env.VITE_BASE_API_URL}data/page${pageNumber.current}.json`
+      `${import.meta.env.VITE_BASE_API_URL}/data/page${pageNumber.current}.json`
     )
       .then((res) => res.json())
       .then((resp) => {
